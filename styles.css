@@ -1,0 +1,72 @@
+body {
+    background: #000;
+}
+div.container {
+    width: 400px;
+    margin: auto;
+    padding: 0px;
+    border-style: solid;
+    border-color: black;
+    height: 600px;
+    background-color: white;  
+
+}
+img {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+div.icon-text {
+    padding: 10px;
+}
+
+div.icon {
+    float: left;
+    padding-left: 10px;
+}
+
+div.icon h5 {
+    display: block;
+    margin: 0px;
+}
+
+div.icon p {
+    margin: 0px;
+}
+
+div.kebab {
+    float: right;
+    padding-right: 10px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+div.icon-row {
+    display: inline-flex;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+div.bookmark {
+    float: right;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+div.likes {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+div.story {
+    padding-right: 10px;
+    padding-left: 10px;
+}
